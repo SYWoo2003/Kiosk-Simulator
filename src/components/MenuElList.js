@@ -13,6 +13,7 @@ const MenuElList = () => {
         width: 80%;
         height: 25rem;
          overflow: auto;
+         overflow-x: hidden;
         mask-image: linear-gradient(to bottom,  rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
         ::-webkit-scrollbar{
             display:none;
