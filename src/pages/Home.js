@@ -15,7 +15,7 @@ const Home = () => {
         text-align: center;
         margin-top: 3%;
             @media screen and (max-width: 800px) { 
-            margin-top: 45%;
+            margin-top: 30%;
         }
     `
 
