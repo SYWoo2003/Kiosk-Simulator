@@ -21,6 +21,7 @@ const MenuBtnList = () => {
         @media screen and (max-width: 800px) {
             width: 5rem;
             margin-left: -1.2rem;
+            mask-image: none;
         }
     `
 

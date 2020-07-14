@@ -25,10 +25,9 @@ const MenuButton = ({ img, desc }) => {
     }
     @media screen and (max-width: 800px) {
             width: 4.5rem;
-            height: 5.5rem;
+            height: 4.5rem;
             border-radius: 0.5rem;
             padding: 0;
-            padding-bottom: 1rem;
     }
 `
 
