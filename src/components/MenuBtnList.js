@@ -17,6 +17,11 @@ const MenuBtnList = () => {
         ::-webkit-scrollbar{
             display:none;
         }
+
+        @media screen and (max-width: 800px) {
+            width: 5rem;
+            margin-left: -1.2rem;
+        }
     `
 
 

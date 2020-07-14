@@ -17,6 +17,12 @@ const MenuElList = () => {
         ::-webkit-scrollbar{
             display:none;
         }
+        @media screen and (max-width: 800px) {
+            width: 80%;
+            margin: 0;
+            margin-left: 0.1rem;
+            height: 25rem;
+        }
     `
 
 

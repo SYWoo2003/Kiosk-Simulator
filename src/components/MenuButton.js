@@ -23,15 +23,28 @@ const MenuButton = ({ img, desc }) => {
     &:hover{
         transform: scale(1.03);
     }
+    @media screen and (max-width: 800px) {
+            width: 4.5rem;
+            height: 4.5rem;
+            border-radius: 0.5rem;
+            padding: 0;
+    }
 `
 
     const Elimg = styled.img`
     height: 6.5rem;
     margin-bottom: -1rem;
+    @media screen and (max-width: 800px) {
+        height: 2.6rem;
+    }
 `
 
     const Text = styled.p`
     font-size: 1.2rem;
+    @media screen and (max-width: 800px) {
+        font-size: 0.3rem;
+        margin-top: 0.9rem;
+    }
 `
 
     return (

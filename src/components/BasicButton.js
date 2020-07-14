@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-const BasicButton = ({ link, desc, color, RLpadding }) => {
+const BasicButton = ({ link, desc, color, RLpadding, Mobilepadding }) => {
 
     const Button = styled.button`
         margin: 0.4rem;
@@ -22,6 +22,12 @@ const BasicButton = ({ link, desc, color, RLpadding }) => {
          &:hover{
              transform: scale(1.01);
          }
+        @media screen and (max-width: 800px) { 
+            font-size: 0.8rem;
+            margin: 0;
+            padding: 0.5rem ${Mobilepadding} 0.5rem ${Mobilepadding};
+            border-radius: 10px;
+        }
         `
 
 

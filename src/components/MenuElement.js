@@ -23,29 +23,51 @@ const MenuElement = ({ img, name, price, kcal, icon }) => {
     &:hover{
         transform: scale(1.03);
     }
+    @media screen and (max-width: 800px) {
+            width: 9.5rem;
+            height: 6.5rem;
+            border-radius: 0.5rem;
+    }
 `
 
     const Elimg = styled.img`
     height: 19rem;
     margin-top: -5rem;
     z-index: 0;
+    @media screen and (max-width: 800px) {
+        height: 4.5rem;
+        margin-top: -2.3rem;
+    }
 
 `
 
     const Name = styled.p`
     font-size: 1.5rem;
     margin-top:0;
+    @media screen and (max-width: 800px) {
+        font-size: 0.7rem;
+        margin-top: -0.3rem;
+    }
 `
 
     const RightText = styled.div`
         font-size: 2rem;
-        width:100%;
+        width:120%;
         text-align: right;
         position: relative;
+        @media screen and (max-width: 800px) {
+            font-size: 0.6rem;
+            margin-top: -1rem;
+        }
     `
 
     const RightEl = styled.p`
         margin: 0.5rem; 
+        margin-right: 8rem;
+        @media screen and (max-width: 800px) {
+            margin-top: -0.5rem;
+            margin-right: 1rem;
+        }
     `
 
     const Props = styled.span`
