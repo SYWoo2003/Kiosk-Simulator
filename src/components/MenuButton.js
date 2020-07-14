@@ -28,6 +28,7 @@ const MenuButton = ({ img, desc }) => {
             height: 5.5rem;
             border-radius: 0.5rem;
             padding: 0;
+            padding-bottom: 1rem;
     }
 `
 
