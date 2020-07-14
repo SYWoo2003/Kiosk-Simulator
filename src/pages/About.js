@@ -56,6 +56,9 @@ const About = () => {
 
 const BodyWrapper = styled.div`
     display:flex;
+        @media screen and (max-width: 800px) {
+        transform: scale(0.97)
+    }
 `
 
 const MarginMaker = styled.div`
