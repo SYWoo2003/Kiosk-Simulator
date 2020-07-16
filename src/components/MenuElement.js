@@ -83,6 +83,7 @@ const MenuElement = ({ img, name, price, kcal, icon }) => {
         @media screen and (max-width: 800px) {
             margin-top: -1rem;
             width: 1rem;
+            margin-left: 10px;
         }
     `
 
