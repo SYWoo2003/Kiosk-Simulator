@@ -1,6 +1,6 @@
 [
     {
-        "img": "bugger-set",
+        "img": "recommend",
         "desc": "추천 메뉴"
     },
     {
@@ -8,11 +8,11 @@
         "desc": "버거&세트"
     },
     {
-        "img": "bugger-set",
-        "desc": "추천 메뉴"
+        "img": "coffee",
+        "desc": "음료 / 커피"
     },
     {
-        "img": "bugger-set",
-        "desc": "버거&세트"
+        "img": "happymeal",
+        "desc": "해피밀"
     }
 ]

@@ -13,7 +13,7 @@ const About = () => {
             <Wrapper>
                 <Header>
                     <Logo src={McdonaldLogo} />
-                    <Headertext>추천 메뉴</Headertext>
+                    <Headertext>버거&세트</Headertext>
                     <BasicButton
                         desc="이전"
                         color="rgb(33, 94, 31)"

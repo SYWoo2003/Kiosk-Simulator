@@ -34,7 +34,7 @@ const MenuElList = () => {
                 menulist.map(({ img, name, price, icon, kcal }, idx) => (
                     <MenuEl
                         key={`Menulist-${idx}`}
-                        img={require(`../assets/Menubuttonimg/${img}.png`)}
+                        img={require(`../assets/Menuelementimg/${img}.png`)}
                         name={name}
                         price={price}
                         kcal={kcal}

@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import newicon from '../assets/icon_new.png';
+import info from '../assets/info.png';
+
 const MenuElement = ({ img, name, price, kcal, icon }) => {
     const Wrapper = styled.button`
     width: 40rem;
@@ -45,7 +48,7 @@ const MenuElement = ({ img, name, price, kcal, icon }) => {
     font-size: 1.5rem;
     margin-top:0;
     @media screen and (max-width: 800px) {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top: -0.3rem;
     }
 `
@@ -74,8 +77,38 @@ const MenuElement = ({ img, name, price, kcal, icon }) => {
     font-weight: 1000;
     `
 
+
+    const Iconimg = styled.img`
+        float: left;
+        @media screen and (max-width: 800px) {
+            margin-top: -1rem;
+            width: 1rem;
+        }
+    `
+
+
+    const Info = styled.img`
+        margin-left: 0.2rem;
+        float: left;
+        @media screen and (max-width: 800px) {
+            margin-left: -0.8rem;
+            margin-top: -1.1rem;
+            width: 1.2rem;
+        }
+    `
+
+
     return (
         <Wrapper>
+            <Info src={info} alt="" />
+            {
+                icon
+                    ?
+
+                    < Iconimg src={newicon} alt="" />
+                    :
+                    null
+            }
             <RightText>
                 <RightEl>₩ <Props>{price}</Props></RightEl>
                 <RightEl>칼로리 <Props>{kcal}</Props></RightEl>
